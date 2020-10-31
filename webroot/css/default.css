@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #333333;;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
