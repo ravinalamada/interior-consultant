@@ -1,0 +1,72 @@
+.feature {
+  margin-block-start: 26px;
+}
+
+.feature--container {
+  background: #181719;
+  position:absolute;
+  width: 300px;
+  padding-block-start: 23px;
+  padding-inline-start: 26px;
+  left: 107px;
+  top: 861px;
+}
+
+.feature--wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature--contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__img--profile {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.feature--name,
+.feature--profession {
+  margin-inline-start: 16px
+}
+
+.feature--date {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 50%
+}
+
+@media (min-width:1000px) {
+  main {
+    display: flex;
+    margin-block-start: 171px;
+  }
+
+  .masthead {
+    padding-inline-end: 87px;
+  }
+
+  .masthead__heading {
+    font-size: 48px;
+    line-height: 61px;
+  }
+
+  .masthead--desc {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .feature--container {
+    width: 300px;
+    left: 757px;
+    top: 672px;
+}
+
+}

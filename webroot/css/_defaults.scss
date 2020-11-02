@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background: #333333;;
+  background: #333333;
+  overflow-x: hidden;
+  margin: 16px;
 }
 
 * {
@@ -22,5 +24,6 @@ li {
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
