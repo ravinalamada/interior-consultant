@@ -72,7 +72,7 @@ body > input[type="checkbox"]:checked ~ header .header__navigation {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 100%;
   height: 100%;
   transform: translateX(-110%);
   transition: transform 0.3s; }
@@ -105,10 +105,9 @@ body > [type="checkbox"]:checked ~ header label {
   color: transparent;
   background-image: url("/close-icon.fefa4c9c.svg");
   background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
-  position: relative;
-  right: -94%; }
+  width: 60px;
+  height: 60px;
+  position: relative; }
 
 @media (min-width: 1000px) {
   .header {
@@ -156,16 +155,18 @@ body > [type="checkbox"]:checked ~ header label {
     line-height: 29px; } }
 
 .feature {
-  margin-block-start: 26px; }
+  margin-block-start: 26px;
+  position: relative; }
 
 .feature--container {
   background: #181719;
   position: absolute;
-  width: 300px;
+  width: 85%;
   padding-block-start: 23px;
   padding-inline-start: 26px;
-  left: 107px;
-  top: 861px; }
+  left: 11%;
+  top: 80%;
+  right: 10%; }
 
 .feature--wrapper {
   display: flex;
@@ -193,7 +194,7 @@ body > [type="checkbox"]:checked ~ header label {
   font-size: 24px;
   line-height: 31px;
   font-size: 18px;
-  max-width: 50%; }
+  width: 40%; }
 
 @media (min-width: 1000px) {
   main {
@@ -208,12 +209,14 @@ body > [type="checkbox"]:checked ~ header label {
     font-size: 24px;
     line-height: 29px; }
   .feature--container {
-    width: 300px;
-    left: 757px;
-    top: 672px; }
+    width: 55%;
+    left: 40%;
+    top: 84%;
+    right: 10%; }
   .feature--date {
     font-size: 24px;
-    line-height: 31px; } }
+    line-height: 31px;
+    width: 90%; } }
 
 .footer {
   margin-block-start: 85px;

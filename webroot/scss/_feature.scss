@@ -1,15 +1,17 @@
 .feature {
   margin-block-start: 26px;
+  position: relative;
 }
 
 .feature--container {
   background: #181719;
   position:absolute;
-  width: 300px;
+  width: 85%;
   padding-block-start: 23px;
   padding-inline-start: 26px;
-  left: 107px;
-  top: 861px;
+  left: 11%;
+  top: 80%;
+  right: 10%
 }
 
 .feature--wrapper {
@@ -40,7 +42,7 @@
 .feature--date {
   @include Lora-font;
   font-size: 18px;
-  max-width: 50%
+  width: 40%
 }
 
 @media (min-width:1000px) {
@@ -65,14 +67,16 @@
   }
 
   .feature--container {
-    width: 300px;
-    left: 757px;
-    top: 672px;
+    width: 55%;
+    left: 40%;
+    top: 84%;
+    right: 10%;
   }
 
   .feature--date {
     font-size: 24px;
     line-height: 31px;
+    width: 90%;
   }
 
 }
