@@ -1,0 +1,21 @@
+.masthead__heading {
+  @include Lora-font;
+}
+
+.masthead--active {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (min-width: 1000px) {
+
+  .masthead__heading {
+    font-size: 48px;
+    line-height: 61px;
+  }
+
+  .masthead--desc {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,17 @@
+@mixin Lora-font {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+@mixin Crimson-font {
+  font-family: "Crimson Pro" Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin Monserat-font {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}

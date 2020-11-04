@@ -32,18 +32,19 @@
 
 .feature--name,
 .feature--profession {
-  margin-inline-start: 16px
+  margin-inline-start: 16px;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .feature--date {
-  font-family: Lora;
-  font-style: normal;
-  font-weight: bold;
+  @include Lora-font;
   font-size: 18px;
   max-width: 50%
 }
 
 @media (min-width:1000px) {
+
   main {
     display: flex;
     margin-block-start: 171px;
@@ -67,6 +68,11 @@
     width: 300px;
     left: 757px;
     top: 672px;
-}
+  }
+
+  .feature--date {
+    font-size: 24px;
+    line-height: 31px;
+  }
 
 }
