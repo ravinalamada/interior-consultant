@@ -43,7 +43,7 @@ a {
   color: white;
   text-decoration: none; }
 
-.header {
+.header--container {
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -110,7 +110,10 @@ body > [type="checkbox"]:checked ~ header label {
   position: relative; }
 
 @media (min-width: 1000px) {
-  .header {
+  .header--container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-end; }
@@ -141,6 +144,9 @@ body > [type="checkbox"]:checked ~ header label {
   font-family: "Lora", Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 31px; }
+
+.masthead__anchor--wrapper {
+  margin-top: 48px; }
 
 .masthead--active {
   font-size: 14px;
@@ -197,9 +203,14 @@ body > [type="checkbox"]:checked ~ header label {
   width: 40%; }
 
 @media (min-width: 1000px) {
-  main {
+  .main--container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     margin-block-start: 171px; }
+  .feature {
+    flex-basis: 217%; }
   .masthead {
     padding-inline-end: 87px; }
   .masthead__heading {
@@ -229,7 +240,13 @@ body > [type="checkbox"]:checked ~ header label {
 @media (min-width: 1000px) {
   .footer {
     margin-block-start: 282px;
-    border-block-start: none; } }
+    border-block-start: none; }
+  .footer--container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer--desc {
+    margin-inline-start: 87px; } }
 
 
 /*# sourceMappingURL=/scss.38d3651c.css.map */

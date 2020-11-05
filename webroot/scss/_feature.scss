@@ -47,9 +47,14 @@
 
 @media (min-width:1000px) {
 
-  main {
+  .main--container {
+    @include container;
     display: flex;
     margin-block-start: 171px;
+  }
+
+  .feature {
+    flex-basis: 217%;
   }
 
   .masthead {

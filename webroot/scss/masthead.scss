@@ -2,6 +2,10 @@
   @include Lora-font;
 }
 
+.masthead__anchor--wrapper {
+  margin-top: 48px;
+}
+
 .masthead--active {
   font-size: 14px;
   line-height: 17px;

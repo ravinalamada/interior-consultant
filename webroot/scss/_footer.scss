@@ -10,6 +10,14 @@
 @media (min-width: 1000px) {
   .footer {
     margin-block-start: 282px;
-    border-block-start: none;  
+    border-block-start: none;
+  }
+
+  .footer--container {
+    @include container;
+  }
+
+  .footer--desc {
+    margin-inline-start: 87px;
   }
 }
