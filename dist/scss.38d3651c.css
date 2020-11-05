@@ -109,6 +109,10 @@ body > [type="checkbox"]:checked ~ header label {
   height: 60px;
   position: relative; }
 
+.header--active {
+  font-size: 18px;
+  line-height: 22px; }
+
 @media (min-width: 1000px) {
   .header--container {
     max-width: 1114px;
@@ -135,10 +139,7 @@ body > [type="checkbox"]:checked ~ header label {
     justify-content: space-between;
     padding-top: 0;
     padding-bottom: 8px;
-    margin: 0; }
-  .header--active {
-    font-size: 18px;
-    line-height: 22px; } }
+    margin: 0; } }
 
 .masthead__heading {
   font-family: "Lora", Arial, Helvetica, sans-serif;

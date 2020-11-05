@@ -72,6 +72,11 @@ body > [type="checkbox"]:checked ~ header label {
   position: relative;
 }
 
+.header--active {
+  font-size: 18px;
+  line-height: 22px;
+}
+
 @media (min-width: 1000px) {
 
   .header--container {
@@ -108,8 +113,4 @@ body > [type="checkbox"]:checked ~ header label {
     margin: 0;
   }
 
-  .header--active {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }
